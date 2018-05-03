@@ -11,9 +11,9 @@
 |
 */
 
-Route::get('/','LoginController@Login') ;
-Route::get('/home','PrincipalController@principal') ;
-Route::get('/cadastro','ClienteController@cliente') ;
+Route::get('/','LoginController@Login');
+Route::get('/home','PrincipalController@principal');
+Route::get('/cadastro','ClienteController@cliente');
 Route::get('/medicamento','CadMedController@cadastrar');
 Route::get('/usuario','CadUserController@caduser');
 Route::post('logar', 'PrincipalController@principal')->name('logar');
